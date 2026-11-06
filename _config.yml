@@ -1,0 +1,13 @@
+title: "Enter the Garden: The Awakening"
+description: "A photo album from Enter the Garden: The Awakening, a night of pole and aerial performance at The Event Space at Hi-Wire Brewing, Asheville. August 8, 2026."
+lang: en
+# Set url and baseurl to the published address, e.g.
+# url: "https://USER.github.io"
+# baseurl: "/enter-the-garden"
+url: "https://mustmodify.github.io"
+baseurl: "/enter-the-garden"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
