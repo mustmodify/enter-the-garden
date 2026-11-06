@@ -121,16 +121,16 @@ h1 {
   top: 0;
   z-index: 5;
   display: flex;
-  gap: 1.4rem;
-  overflow-x: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.4rem;
   padding: 0.8rem 16px;
   background: rgba(11, 10, 12, 0.94);
   border-top: 1px solid var(--gold-dim);
   border-bottom: 1px solid var(--gold-dim);
   font-size: 0.72rem;
-  scrollbar-width: none;
 }
-.toc::-webkit-scrollbar { display: none; }
+@media (max-width: 700px) { .toc { position: static; } .chapter { scroll-margin-top: 0; } }
 .toc a { flex: none; color: var(--bone); text-decoration: none; white-space: nowrap; }
 .toc a span { color: var(--gold-dim); margin-right: 0.3em; }
 .toc a:hover { color: var(--teal); }
