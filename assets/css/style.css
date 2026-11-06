@@ -6,7 +6,7 @@
   --bone: #e8dfcf;
   --teal: #5fd4d8;
   --rose: #c98f86;
-  --display: "Cinzel Decorative", "Palatino Linotype", Palatino, Georgia, serif;
+  --display: "Almendra Display", "Palatino Linotype", Palatino, Georgia, serif;
   --label: "Cinzel", "Trajan Pro", Georgia, serif;
   --body: "Cormorant Garamond", Georgia, "Times New Roman", serif;
 }
@@ -80,9 +80,9 @@ a { color: var(--gold); }
 h1 {
   margin: 0.3rem 0 0;
   font-family: var(--display);
-  font-weight: 700;
+  font-weight: normal;
   font-synthesis: none;
-  font-size: clamp(2.2rem, 8.5vw, 5.4rem);
+  font-size: clamp(2.7rem, 11vw, 6.6rem);
   line-height: 1;
   color: var(--gold);
   letter-spacing: 0.02em;
